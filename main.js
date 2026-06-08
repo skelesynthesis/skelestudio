@@ -21,6 +21,9 @@ function buySeeds() {
     if(gameData.moneyOwned >= gameData.seedsCost){
         gameData.seedsOwned += 1
         gameData.moneyOwned -= gameData.seedsCost
+        document.getElementByID("seedsOwned").innerHTML = gameData.seedsOwned+ " seeds owned"
+        document.getElementByID("moneyOwned").innerHTML = "$" +gameData.moneyOwned
+    }
 }
 //function buySeedsPerClick() {
   //  if(gameData.seeds >= gameData.seedsCost) {
