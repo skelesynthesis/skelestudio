@@ -19,6 +19,4 @@ function buyGoldPerClick() {
   }
 }
 
-var mainGameLoop = window.setInterval(function() {
-  mineGold()
-}, 1000)
+
