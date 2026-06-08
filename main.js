@@ -17,7 +17,7 @@ function buySeeds() {
         document.getElementByID("seedsOwned").innerHTML = gameData.seedsOwned + " seeds owned"
 //        document.getElementByID("moneyOwned").innerHTML = "$" +gameData.moneyOwned
     }
-}
+
 //function buySeedsPerClick() {
   //  if(gameData.seeds >= gameData.seedsCost) {
    //     gameData.seeds -= gameData.seedsPerClickCost
@@ -26,7 +26,7 @@ function buySeeds() {
     //    document.getElementById("seedsOwned").innerHTML = gameData.seedsOwned+ " seeds owned"
     //    document.getElementById("perClickUpgrade").innerHTML = "Upgrade Microfarm (Currently Level " + gameData.upgradesOwned + " Cost:: " + gameData.goldPerClickCost + " Gold"
    // }
-}
+
 
 //var mainGameLoop = window.setInterval(function() {
 //   mineGold()
