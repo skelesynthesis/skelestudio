@@ -2,22 +2,15 @@ var gameData = {
 
 //store
     seedsCost: 5,
-    upgradesCost: 20,
-    upgradesStrength: 10,
 
 
 //inventory 
-    moneyOwned: 20,
-    seedsOwned: 0,
-    upgradesOwned: 0,
-    microgreensOwned: 0,
 
-    
-    
-    update: 1
+    seedsOwned: 0,
+    moneyOwned: 20,
 }
 
-function buySeedsPerClick() {
+function buySeeds() {
     if(gameData.moneyOwned >= gameData.seedsCost){
         gameData.seedsOwned += 1
         gameData.moneyOwned -= gameData.seedsCost
