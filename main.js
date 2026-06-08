@@ -18,8 +18,9 @@ var gameData = {
 }
 
 function buySeeds() {
-    gameData.moneyOwned -= gameData.seedsCost
-    gameData.seedsOwned ++
+    if(gameData.moneyOwned >= gameData.seedsCost){
+        gameData.seedsOwned += 1
+        gameData.moneyOwned -= gameData.seedsCost
 }
 //function buySeedsPerClick() {
   //  if(gameData.seeds >= gameData.seedsCost) {
