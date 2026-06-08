@@ -32,7 +32,7 @@ function buySeeds() {
 //   mineGold()
 //}, 1000)
 
-var saveGameLoop = window.setInterval(function() {
-    localStorage.setItem("goldMinerSave", JSON.stringify(gameData))
+//var saveGameLoop = window.setInterval(function() {
+//    localStorage.setItem("goldMinerSave", JSON.stringify(gameData))
 
-}, 15000)
+//}, 15000)
